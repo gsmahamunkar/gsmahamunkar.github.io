@@ -10,9 +10,9 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
+  - title: "About Me"
     url: /about/
-  - title: "CV"
+  - title: "Curriculum Vitae"
     url: /cv/
   - title: "Teaching"
     url: /teaching/
