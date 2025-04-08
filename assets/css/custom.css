@@ -1,0 +1,47 @@
+/* Custom styles for Dr. Geetanjali Mahamunkar’s site */
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.7;
+  background-color: #ffffff;
+  color: #222;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #0066cc;
+}
+
+header {
+  background: #f0f4fa;
+  padding: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+footer {
+  background: #f0f0f0;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+  font-size: 0.9em;
+}
+
+h1, h2, h3 {
+  color: #004080;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li {
+  display: inline;
+}
