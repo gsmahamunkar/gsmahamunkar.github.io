@@ -1,26 +1,83 @@
-/* custom.css */
-.banner-img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-  margin-bottom: 2rem;
+/* Light Theme Customizations for Dr. Geetanjali Mahamunkar's Profile */
+body {
+  font-family: 'Segoe UI', Roboto, sans-serif;
+  background-color: #fefefe;
+  color: #222;
+  line-height: 1.7;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
 }
 
-.site-header {
-  background: linear-gradient(to right, #013220, #006d5b);
-  padding: 1rem 0;
-  color: white;
-}
-
-.site-header a {
-  color: white;
+a {
+  color: #006699;
   text-decoration: none;
+  font-weight: 500;
 }
 
-.site-footer {
-  font-size: 0.9rem;
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 40px;
   text-align: center;
-  padding: 1rem 0;
-  background: #f8f8f8;
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+  color: #333;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #fafafa;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #eaeaea;
+}
+
+/* Banner */
+.banner-image {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 30px;
+  border-bottom: 3px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Social icons (optional custom styling) */
+footer a {
+  margin: 0 10px;
+  color: #555;
+}
+
+footer a:hover {
+  color: #000;
 }
