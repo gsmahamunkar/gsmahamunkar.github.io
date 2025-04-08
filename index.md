@@ -3,6 +3,7 @@ layout: page
 title: "Welcome"
 permalink: /
 ---
+![Banner](/assets/images/banner.jpg)
 
 👋 Hello and welcome! I'm **Dr. Geetanjali Mahamunkar**, a researcher and educator working in the fields of **Remote Sensing**, **GIS**, and **Deep Learning for Geospatial Applications**.
 
