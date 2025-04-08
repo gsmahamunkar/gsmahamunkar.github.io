@@ -44,3 +44,12 @@ banner:
 # Theme customization: custom CSS
 include:
   - assets/css/custom.css
+header_pages:
+  - index.md
+  - about.md
+  - cv.md
+  - teaching.md
+  - research.md
+  - publications.md
+  - blog.md
+
