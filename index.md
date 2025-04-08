@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: default
 title: "Welcome"
-permalink: /
 ---
-![Banner](/assets/images/banner.jpg)
 
-👋 Hello and welcome! I'm **Dr. Geetanjali Mahamunkar**, a researcher and educator working in the fields of **Remote Sensing**, **GIS**, and **Deep Learning for Geospatial Applications**.
+<img src="{{ '/assets/images/banner.jpg' | relative_url }}" alt="Banner Image" class="banner-image">
 
-I’m passionate about using spatial data science to solve environmental challenges, and I enjoy sharing my knowledge with students and the academic community.
-
-📌 Explore my work, research, blog posts, and more here!
+<div class="home-intro">
+  <h1>Dr. Geetanjali Mahamunkar</h1>
+  <h3>Remote Sensing | GIS | Deep Learning | Educator | Researcher</h3>
+  <p>Welcome to my personal academic website. Explore my research, teaching, and publications, or feel free to get in touch!</p>
+</div>
