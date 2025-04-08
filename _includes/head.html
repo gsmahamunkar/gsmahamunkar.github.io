@@ -16,7 +16,9 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
 
 <meta http-equiv="cleartype" content="on">
 <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/x-icon">
