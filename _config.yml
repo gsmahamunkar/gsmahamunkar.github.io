@@ -16,3 +16,31 @@ social_links:
     user_url: https://orcid.org/0000-0002-8043-097X
   - platform: google-scholar
     user_url: https://scholar.google.com/citations?user=I8fsgUAAAAAJ&hl=en
+# Additional styling and enhancements
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Dr. Geetanjali Mahamunkar"
+
+markdown: kramdown
+highlighter: rouge
+
+# Google Fonts and site style enhancements
+sass:
+  style: compressed
+
+# Add a favicon if needed
+favicon: "/assets/images/favicon.ico"
+
+# Banner image config (optional for use in index.md)
+banner:
+  image: "/assets/images/banner.jpg"
+  alt: "Remote Sensing Visualization"
+  show: true
+
+# Theme customization: custom CSS
+include:
+  - assets/css/custom.css
