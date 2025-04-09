@@ -162,3 +162,61 @@ footer a:hover {
   color: #006699;
   font-weight: 500;
 }
+.featured-post {
+  background: #fff9ec;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.featured-post h2 {
+  margin-top: 0;
+  font-size: 28px;
+  color: #444;
+}
+
+.featured-post .post-meta {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 12px;
+}
+
+.featured-post p {
+  font-size: 16px;
+  color: #555;
+}
+
+.blog-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.blog-post-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  margin-bottom: 30px;
+}
+
+.blog-post-card h3 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #222;
+}
+
+.blog-post-card .post-meta {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.blog-post-card .read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #006699;
+  font-weight: 500;
+}
