@@ -130,3 +130,35 @@ footer a:hover {
     font-size: 16px;
   }
 }
+.blog-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-post-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+}
+
+.blog-post-card h2 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #222;
+}
+
+.blog-post-card .post-meta {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.blog-post-card .read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #006699;
+  font-weight: 500;
+}
