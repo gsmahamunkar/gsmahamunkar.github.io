@@ -17,12 +17,12 @@ geospatial data analysis. Springer, 2020, pp. 63–81.
 
 ### 🔬 Journal Publications
 
-1. G. Mahamunkar, A. Kiwelekar, and L. Netak, “Dataset creation and comparative analysis of machine
+1. **G. Mahamunkar**, A. Kiwelekar, and L. Netak, “Dataset creation and comparative analysis of machine
 learning models for mangrove classification in coastal maharashtra, india,” International Journal on
 Recent and Innovation Trends in Computing and Communication, vol. 12, no. 2, pp. 344–350, 2024.  url:
 https://ijritcc.org/index.php/ijritcc/article/view/10668.
 
-2. G. Mahamunkar, A. Kiwelekar, and L. Netak, “Deep learning model for black spot classification,”
+2. **G. Mahamunkar**, A. Kiwelekar, and L. Netak, “Deep learning model for black spot classification,”
 International Journal of Performability Engineering, vol. 18, no. 3, 222, p. 222, 2022.  doi:
 10.23940/ijpe.22.03.p8.222230.
 
