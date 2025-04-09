@@ -33,7 +33,7 @@ sass:
   style: compressed
 
 # Add a favicon if needed
-favicon: "/favicon.ico"
+favicon: /favicon.ico
 
 # Banner image config (optional for use in index.md)
 banner:
