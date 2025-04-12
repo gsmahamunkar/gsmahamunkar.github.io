@@ -3,63 +3,186 @@ layout: post
 title: "Mapping Mangroves Using AI"
 date: 2025-04-12
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="author" content="Dr. Geetanjali Mahamunkar">
+  <meta name="description" content="A blog post on using satellite remote sensing and AI for mangrove mapping.">
+  <title>🌿 Mapping the Mangroves</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f9f4;
+      color: #333;
+    }
 
-<article class="prose mx-auto p-4">
-  <h1 class="text-3xl font-bold mb-4">Mapping Mangroves Using Deep Learning: A Case Study on the Maharashtra Coast</h1>
+    header {
+      background-color: #2c6e49;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
 
-  <p><strong>Author:</strong> Dr. Geetanjali Mahamunkar</p>
-  <p><strong>Date:</strong> April 12, 2025</p>
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
 
-  <p>Mangroves are vital coastal ecosystems that provide a range of ecosystem services—from carbon sequestration to coastal protection. This blog post discusses my thesis work, which utilizes deep learning techniques to automate and enhance the accuracy of mangrove mapping using satellite imagery along the Maharashtra coast of India.</p>
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
 
-  <h2 class="text-2xl font-semibold mt-8 mb-4">Study Area: Maharashtra Coast</h2>
-  <p>The focus area includes several coastal districts of Maharashtra—Raigad, Ratnagiri, Sindhudurg, Thane, Mumbai, and Palghar.</p>
-  <img src="/images/maharashtra-coast-map.png" alt="Maharashtra Coast Study Area" class="my-4 rounded shadow">
+    section {
+      margin-bottom: 2rem;
+    }
 
-  <h2 class="text-2xl font-semibold mt-8 mb-4">Data Collection and Preprocessing</h2>
-  <ul class="list-disc pl-6">
-    <li>Used Sentinel-2 Level-2A imagery from 2021</li>
-    <li>Ground truth polygons were created via Google Earth Pro and fieldwork validation</li>
-    <li>Image tiles were generated using a sliding window approach of size 128x128 pixels</li>
-  </ul>
+    h2 {
+      color: #2c6e49;
+    }
 
-  <h2 class="text-2xl font-semibold mt-8 mb-4">Deep Learning Approach</h2>
-  <p>We used a Convolutional Neural Network (CNN)-based model with layers fine-tuned to classify mangrove vs. non-mangrove patches.</p>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      background-color: #fff;
+    }
 
-  <img src="/images/cnn-architecture.png" alt="CNN Architecture" class="my-4 rounded shadow">
+    table, th, td {
+      border: 1px solid #ccc;
+    }
 
-  <h2 class="text-2xl font-semibold mt-8 mb-4">Model Training and Validation</h2>
-  <ul class="list-disc pl-6">
-    <li>Training-Validation-Test split: 60%-20%-20%</li>
-    <li>Binary Cross-Entropy loss and Adam optimizer used</li>
-    <li>Data augmentation for robustness (rotations, flips)</li>
-  </ul>
+    th, td {
+      padding: 0.75rem;
+      text-align: center;
+    }
 
-  <h2 class="text-2xl font-semibold mt-8 mb-4">Results</h2>
-  <table class="table-auto border-collapse border border-gray-300 w-full my-4">
-    <thead>
-      <tr>
-        <th class="border border-gray-300 px-4 py-2">Model</th>
-        <th class="border border-gray-300 px-4 py-2">Accuracy</th>
-        <th class="border border-gray-300 px-4 py-2">Precision</th>
-        <th class="border border-gray-300 px-4 py-2">Recall</th>
-        <th class="border border-gray-300 px-4 py-2">F1-Score</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td class="border border-gray-300 px-4 py-2">Custom CNN</td>
-        <td class="border border-gray-300 px-4 py-2">94.8%</td>
-        <td class="border border-gray-300 px-4 py-2">93.5%</td>
-        <td class="border border-gray-300 px-4 py-2">96.1%</td>
-        <td class="border border-gray-300 px-4 py-2">94.8%</td>
-      </tr>
-    </tbody>
-  </table>
+    th {
+      background-color: #e1f5e0;
+    }
 
-  <h2 class="text-2xl font-semibold mt-8 mb-4">Conclusion</h2>
-  <p>This study demonstrates the potential of using deep learning models like CNNs to support environmental monitoring efforts. The high accuracy of the model suggests that AI-driven approaches can complement traditional mangrove mapping techniques and be scaled across larger geographies.</p>
+    code {
+      background-color: #eef6f0;
+      padding: 0.2em 0.4em;
+      border-radius: 4px;
+      font-family: monospace;
+    }
 
-  <p>For those interested in using remote sensing and AI for ecosystem mapping, the full dataset, preprocessing scripts, and model architecture will soon be available on my <a href="https://github.com/yourusername" class="text-blue-600 underline">GitHub</a>.</p>
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+      padding: 2rem 1rem;
+    }
+  </style>
+</head>
+<body>
 
-</article>
+<header>
+  <h1>🌿 Mapping the Mangroves: A Tech-Driven Approach to Preserving Coastal Ecosystems</h1>
+</header>
+
+<main>
+
+  <section>
+    <p>Mangroves—those tangled, salt-tolerant forests along tropical coasts—are more than just picturesque landscapes. They are powerful carbon sinks, natural disaster shields, and nurseries for marine life. Yet, despite their ecological and economic value, mangroves are rapidly declining due to urban expansion, pollution, and climate change. To protect these vital ecosystems, accurate and efficient mapping techniques are essential. That’s where our study comes in.</p>
+  </section>
+
+  <section>
+    <h2>🛰 Why Map Mangroves?</h2>
+    <p>Mangrove forests are tough to access, often submerged and scattered across remote coastlines. Traditional field surveys are expensive and time-consuming. Our work leverages satellite imagery and machine learning to streamline this process, enabling large-scale, data-driven monitoring of mangrove health and distribution.</p>
+  </section>
+
+  <section>
+    <h2>🧠 The Heart of the Study: Remote Sensing Meets AI</h2>
+    <p>We used <strong>Landsat 8 satellite images</strong>—freely available and rich in spectral data—to detect mangrove coverage along the coastal districts of <strong>Maharashtra, India</strong>. Landsat's blend of visible, near-infrared, and shortwave infrared bands makes it ideal for distinguishing mangroves from other vegetation types.</p>
+    <p>To analyze this data, we turned to <strong>ArcGIS Pro</strong> for preprocessing and spatial analysis. But the real magic happened in <strong>Google Colab</strong>, where we trained <strong>Random Forest</strong> and <strong>Convolutional Neural Network (CNN)</strong> models to classify mangrove vs. non-mangrove regions.</p>
+  </section>
+
+  <section>
+    <h2>🧪 Methodology Breakdown</h2>
+    <ol>
+      <li><strong>Radiometric Correction</strong>: Converted raw pixel values into surface reflectance using metadata-based formulas.</li>
+      <li><strong>Band Composites & Spectral Indices</strong>: Used specific Landsat bands (especially Band 4, 5, and 6) to enhance vegetation features.</li>
+      <li><strong>Image Tiling</strong>: Split the corrected images into 256x256-pixel tiles, labeled as mangrove or non-mangrove.</li>
+      <li><strong>Data Augmentation</strong>: Increased dataset diversity by rotating images, ensuring robust training.</li>
+      <li><strong>Model Training</strong>:
+        <ul>
+          <li><strong>Random Forest (RF)</strong>: Ensemble method using decision trees.</li>
+          <li><strong>CNN</strong>: Deep learning model using multiple convolution and pooling layers to learn complex patterns in imagery.</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>📈 Results at a Glance</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Metric</th>
+          <th>Random Forest</th>
+          <th><strong>CNN</strong></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Accuracy</td>
+          <td>76.47%</td>
+          <td><strong>84.93%</strong></td>
+        </tr>
+        <tr>
+          <td>Precision</td>
+          <td>0.765</td>
+          <td><strong>1.0</strong></td>
+        </tr>
+        <tr>
+          <td>Recall</td>
+          <td>0.765</td>
+          <td><strong>0.8492</strong></td>
+        </tr>
+        <tr>
+          <td>F1 Score</td>
+          <td>0.76</td>
+          <td><strong>0.9184</strong></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>The <strong>CNN outperformed Random Forest</strong> across all metrics, highlighting the potential of deep learning in ecological remote sensing applications.</p>
+  </section>
+
+  <section>
+    <h2>🌍 Implications & Future Directions</h2>
+    <p>Our study demonstrates how integrating <strong>remote sensing with machine learning</strong> can significantly enhance environmental monitoring. But this is just the beginning. Future work can expand this dataset to cover more regions, incorporate UAV data, and experiment with ensemble models or advanced architectures like transformers.</p>
+    <p>Moreover, this approach opens the door to <strong>change detection</strong>—tracking mangrove loss or recovery over time. Such insights are crucial for conservation planning, policymaking, and community engagement.</p>
+  </section>
+
+  <section>
+    <h2>💡 For Fellow Researchers and Practitioners</h2>
+    <ul>
+      <li><strong>Landsat 8</strong> remains a valuable and accessible resource for vegetation studies.</li>
+      <li><strong>Preprocessing matters</strong>—radiometric correction and band selection greatly impact results.</li>
+      <li><strong>Machine learning models</strong> can be trained with modest datasets if data augmentation is properly applied.</li>
+      <li><strong>Google Colab</strong> provides a free, GPU-powered environment ideal for experimenting with deep learning models.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🧭 Final Thoughts</h2>
+    <p>Mapping mangroves is more than a technical task—it’s a step toward preserving one of Earth’s most important natural defenses. With satellite data, intelligent algorithms, and a bit of creativity, we can protect what truly matters.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 Dr. Geetanjali Mahamunkar. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
