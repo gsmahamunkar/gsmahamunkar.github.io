@@ -1,0 +1,65 @@
+---
+layout: post
+title: "Mapping Mangroves Using AI"
+date: 2025-04-12
+---
+
+<article class="prose mx-auto p-4">
+  <h1 class="text-3xl font-bold mb-4">Mapping Mangroves Using Deep Learning: A Case Study on the Maharashtra Coast</h1>
+
+  <p><strong>Author:</strong> Dr. [Your Name]</p>
+  <p><strong>Date:</strong> April 12, 2025</p>
+
+  <p>Mangroves are vital coastal ecosystems that provide a range of ecosystem services—from carbon sequestration to coastal protection. This blog post discusses my thesis work, which utilizes deep learning techniques to automate and enhance the accuracy of mangrove mapping using satellite imagery along the Maharashtra coast of India.</p>
+
+  <h2 class="text-2xl font-semibold mt-8 mb-4">Study Area: Maharashtra Coast</h2>
+  <p>The focus area includes several coastal districts of Maharashtra—Raigad, Ratnagiri, Sindhudurg, Thane, Mumbai, and Palghar.</p>
+  <img src="/posts/images/maharashtra-coast-map.png" alt="Maharashtra Coast Study Area" class="my-4 rounded shadow">
+
+  <h2 class="text-2xl font-semibold mt-8 mb-4">Data Collection and Preprocessing</h2>
+  <ul class="list-disc pl-6">
+    <li>Used Sentinel-2 Level-2A imagery from 2021</li>
+    <li>Ground truth polygons were created via Google Earth Pro and fieldwork validation</li>
+    <li>Image tiles were generated using a sliding window approach of size 128x128 pixels</li>
+  </ul>
+
+  <h2 class="text-2xl font-semibold mt-8 mb-4">Deep Learning Approach</h2>
+  <p>We used a Convolutional Neural Network (CNN)-based model with layers fine-tuned to classify mangrove vs. non-mangrove patches.</p>
+
+  <img src="/posts/images/cnn-architecture.png" alt="CNN Architecture" class="my-4 rounded shadow">
+
+  <h2 class="text-2xl font-semibold mt-8 mb-4">Model Training and Validation</h2>
+  <ul class="list-disc pl-6">
+    <li>Training-Validation-Test split: 60%-20%-20%</li>
+    <li>Binary Cross-Entropy loss and Adam optimizer used</li>
+    <li>Data augmentation for robustness (rotations, flips)</li>
+  </ul>
+
+  <h2 class="text-2xl font-semibold mt-8 mb-4">Results</h2>
+  <table class="table-auto border-collapse border border-gray-300 w-full my-4">
+    <thead>
+      <tr>
+        <th class="border border-gray-300 px-4 py-2">Model</th>
+        <th class="border border-gray-300 px-4 py-2">Accuracy</th>
+        <th class="border border-gray-300 px-4 py-2">Precision</th>
+        <th class="border border-gray-300 px-4 py-2">Recall</th>
+        <th class="border border-gray-300 px-4 py-2">F1-Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-gray-300 px-4 py-2">Custom CNN</td>
+        <td class="border border-gray-300 px-4 py-2">94.8%</td>
+        <td class="border border-gray-300 px-4 py-2">93.5%</td>
+        <td class="border border-gray-300 px-4 py-2">96.1%</td>
+        <td class="border border-gray-300 px-4 py-2">94.8%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 class="text-2xl font-semibold mt-8 mb-4">Conclusion</h2>
+  <p>This study demonstrates the potential of using deep learning models like CNNs to support environmental monitoring efforts. The high accuracy of the model suggests that AI-driven approaches can complement traditional mangrove mapping techniques and be scaled across larger geographies.</p>
+
+  <p>For those interested in using remote sensing and AI for ecosystem mapping, the full dataset, preprocessing scripts, and model architecture will soon be available on my <a href="https://github.com/yourusername" class="text-blue-600 underline">GitHub</a>.</p>
+
+</article>
