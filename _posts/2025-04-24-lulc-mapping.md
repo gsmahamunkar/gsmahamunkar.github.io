@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LULC Mapping of Raigad District Using Random Forest and Sentinel-2 Data"
+title: "Remote Sensing & ML for LULC in Raigad District"
 date: 2025-04-24
 ---
 
