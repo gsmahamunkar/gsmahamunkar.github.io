@@ -51,9 +51,7 @@ A **Random Forest classifier** was trained and applied in **Google Earth Engine 
 #### 🗺️ 3️⃣ Accuracy Assessment
 The classification's performance was evaluated using an **independent validation dataset** and a **confusion matrix**.
 
-- **Overall Accuracy:** **87.63%**
-- **Kappa Coefficient:** **0.83**
-
+- **Overall Accuracy:** **84.49 %**
 ---
 
 ### 🌾 LULC Classification Results
@@ -66,7 +64,7 @@ The final LULC map revealed:
 
 #### 📷 Example Output:  
 
-![LULC Classification Map of Raigad District](/images/raigad_lulc_map.png)
+![LULC Classification Map of Raigad District](/images/RaigadLULC2002-21.png)
 
 
 ---
