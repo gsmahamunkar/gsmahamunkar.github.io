@@ -28,10 +28,6 @@ Located in the **Konkan region of Maharashtra**, Raigad features a varied landsc
   - Date of acquisition: **January 2022**
   - Processed to **surface reflectance (Level-2A)** using **Sen2Cor**
 
-- **Ground Truth Data:**  
-  - Collected during **field visits** via GPS
-  - Verified with **Google Earth imagery** and existing records
-
 ---
 
 ### 📊 Methodology Overview
