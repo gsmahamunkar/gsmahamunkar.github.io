@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Land Use Land Cover Mapping of Raigad District Using Sentinel-2 and Random Forest in Google Earth Engine"
+title: "LULC Mapping of Raigad District Using Random Forest and Sentinel-2 Data"
 date: 2025-04-24
 ---
 
