@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Land Use Land Cover Mapping of Raigad District Using Sentinel-2 and Random Forest in Google Earth Engine"
+date: 2025-04-24
+---
+
+
 ## 🌿 Mapping Land Use Land Cover of Raigad District Using Random Forest: A Remote Sensing Approach
 
 ---
