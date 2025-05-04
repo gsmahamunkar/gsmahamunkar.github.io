@@ -8,6 +8,13 @@ Here is a list of selected publications highlighting my research in Remote Sensi
 
 ---
 
+### 🔬 Book
+
+1. **Mahamunkar, Geetanjali S. (2025)**. Deep Learning for Geospatial Intelligence: Techniques, Applications, and Insights. Notion Press. ISBN: 9798899291371.
+Available on Amazon, Flipkart, and Notion Press.
+
+---
+
 ### 🔬 Book Chapter
 
 1. A. W. Kiwelekar, **G. S. Mahamunkar**, L. D. Netak, and V. B. Nikam, Deep learning techniques for
