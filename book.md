@@ -4,9 +4,12 @@ title: "Deep Learning for Geospatial Intelligence"
 permalink: /book/
 author_profile: true
 ---
+
 <div style="text-align: center;">
   <img src="/images/book_cover.png" alt="Book Poster" style="max-width: 100%; height: auto;">
 </div>
+---
+
 ## Unlock the Power of Earth Data with Deep Learning
 
 From satellite imagery to drone data, **_Deep Learning for Geospatial Intelligence_** reveals how AI transforms raw spatial data into actionable insights. Covering real-world applications like **mangrove mapping**, **landslide prediction**, and more, this practical guide is designed for **students, researchers, and professionals** alike.
