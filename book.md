@@ -10,7 +10,7 @@ permalink: /book/
 
 From satellite imagery to drone data, this book reveals how AI transforms raw spatial data into actionable insights.
 
-🎯 Topics covered:
+## 🎯 Topics covered:
 - Theoretical Foundations
 - Methodologies and Tools
 - Applications and Case Studies
