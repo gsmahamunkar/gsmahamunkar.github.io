@@ -4,7 +4,7 @@ title: "Deep Learning for Geospatial Intelligence"
 permalink: /book/
 ---
 
-![Book Poster](/images/book_poster.png)
+![Book Poster](/images/book_cover.png)
 
 ## Unlock the Power of Earth Data with Deep Learning
 
