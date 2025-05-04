@@ -20,5 +20,7 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
+  - title: "Book"
+    url: /book/
   - title: "Blog"
     url: "/blog/"
