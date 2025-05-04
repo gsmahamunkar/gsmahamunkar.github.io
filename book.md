@@ -11,9 +11,18 @@ permalink: /book/
 From satellite imagery to drone data, this book reveals how AI transforms raw spatial data into actionable insights.
 
 🎯 Topics covered:
-- Mangrove mapping
-- Landslide prediction
-- Geospatial case studies using open-source tools
+- Theoretical Foundations
+- Methodologies and Tools
+- Applications and Case Studies
+- Emerging Frontiers and Vision
+  
+## 🎯 Special Features
+
+- 📘 **Exercise Questions** and **Summary and Notes** after each chapter  
+- 🧠 **Suggestions** to deepen understanding  
+- 💡 **Mini-Project Ideas** to inspire real-world applications  
+- 📝 **Student Worksheets** for self-paced learning  
+- 📂 **Case Studies** based on the author's **actual PhD research**
 
 🛒 **Buy Now**:
 - [Amazon](https://amzn.in/d/5jRwEkY)
