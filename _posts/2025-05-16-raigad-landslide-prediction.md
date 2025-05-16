@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Remote Sensing & ML for LULC in Raigad District"
-date: 2025-04-24
+title: "Landslide Susceptibility Prediction"
+date: 2025-05-16
 ---
 
 # Landslide Susceptibility Prediction Using Machine Learning: A Case Study of Raigad District
