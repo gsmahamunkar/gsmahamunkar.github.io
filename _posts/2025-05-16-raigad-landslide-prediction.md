@@ -26,8 +26,8 @@ Raigad is a coastal district located in the Konkan region, characterized by:
 
 The region has witnessed several devastating landslides in the past two decades. For instance:
 
-| Event | Location | Date | Casualties |
-|-------|----------|------|------------|
+| Event Location | Date | Casualties |
+|----------------|------|------------|
 | Irshalwadi | July 19, 2023 | 26 dead, 109 missing |
 | Taliye | July 22, 2021 | 89 dead |
 | Dasgaon | July 25, 2005 | 48 dead |
