@@ -30,7 +30,7 @@ The region has witnessed several devastating landslides in the past two decades.
 |----------------|------|------------|
 | Irshalwadi | July 19, 2023 | 26 dead, 109 missing |
 | Taliye | July 22, 2021 | 89 dead |
-| Dasgaon | July 25, 2005 | 48 dead |
+| Jui, Rohan, Dasgaon and Kondvite | July 25, 2005 | 94, 15, 48 and 33 (respectively) dead  |
 
 ---
 
