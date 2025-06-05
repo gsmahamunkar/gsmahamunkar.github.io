@@ -1,10 +1,8 @@
 ---
+layout: post
 title: "🌍 World Environment Day 2025: A Geospatial Perspective on Healing Our Planet"
 date: 2025-06-05
-tags: [WorldEnvironmentDay, GIS, RemoteSensing, Sustainability, Restoration, EarthObservation]
-layout: post
 ---
-
 ![World Environment Day Banner](/images/world-environment-day-banner.png)
 
 > *"The environment is where we all meet; where we all have a mutual interest; it is the one thing all of us share." — Lady Bird Johnson*
