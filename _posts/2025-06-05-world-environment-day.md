@@ -35,7 +35,7 @@ Whether it’s mapping mangroves, tracking land use change, modeling carbon sink
 
 ## 💻 Projects That Inspire 🌿
 
-Here are a few projects I’ve contributed to, showcased on my [GitHub](https://github.com/your-username):
+Here are a few projects I’ve contributed to, showcased on my [GitHub]([https://gsmahamunkar.github.io/]):
 
 | Project Title | Tool Used | Theme |
 |---------------|-----------|-------|
@@ -44,7 +44,7 @@ Here are a few projects I’ve contributed to, showcased on my [GitHub](https://
 | 🚧 Black Spot Detection | QGIS, Accident DB | Road Safety |
 | 🌍 LULC Change Monitoring | Supervised ML | Urban Growth |
 
-> 🧪 *You can explore source code and datasets in my [Geospatial Projects Repo](https://github.com/your-username/geospatial-projects).*
+> 🧪 *You can explore more about my research work in my [book](https://gsmahamunkar.github.io/book/).*
 
 ---
 
@@ -68,4 +68,4 @@ Let’s not just be **#GenerationRestoration**—let’s be **Generation Respons
 
 ---
 
-📬 *Stay connected and explore more on my [GitHub Blog](https://yourgithubusername.github.io).*
+📬 *Stay connected and explore more on my [GitHub Blog][(https://gsmahamunkar.github.io/)].*
