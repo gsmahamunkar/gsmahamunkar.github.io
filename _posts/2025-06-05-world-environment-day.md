@@ -35,7 +35,7 @@ Whether it’s mapping mangroves, tracking land use change, modeling carbon sink
 
 ## 💻 Projects That Inspire 🌿
 
-Here are a few projects I’ve contributed to, showcased on my [GitHub]([https://gsmahamunkar.github.io/]):
+Here are a few projects I’ve contributed to, showcased on my [GitHub](https://gsmahamunkar.github.io/):
 
 | Project Title | Tool Used | Theme |
 |---------------|-----------|-------|
