@@ -1,12 +1,4 @@
 
----
-layout: post
-title: "International Mangrove Conservation Day: Safeguarding Nature's Coastal Guardians"
-date: 2025-07-25
-author: Geetanjali Mahamunkar
-tags: [environment, conservation, mangroves, GIS, remote sensing]
----
-
 # 🌿 International Mangrove Conservation Day: Safeguarding Nature's Coastal Guardians
 
 **Celebrated on:** July 26, every year  
