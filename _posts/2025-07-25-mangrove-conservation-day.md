@@ -3,6 +3,7 @@ layout: post
 title: "Mangrove Conservation Day"
 date: 2025-07-26
 ---
+
 # 🌿 International Mangrove Conservation Day: Safeguarding Nature's Coastal Guardians
 
 **Celebrated on:** July 26, every year  
