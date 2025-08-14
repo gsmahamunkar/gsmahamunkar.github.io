@@ -6,7 +6,7 @@ description: "A patriotic Independence Day reflection on how Deep Learning and G
 tags: [Independence Day, Geospatial AI, Deep Learning, Remote Sensing, India]
 ---
 
-![Banner: India from Space with AI Overlays](/assets/images/independence-day-banner.jpg)
+![Banner: India from Space with AI Overlays](/images/independence-day-banner.png)
 
 > *"At the heart of freedom lies the power to see, understand, and act."*
 
@@ -24,7 +24,7 @@ India’s mapping journey has been remarkable:
 - **2000s**: GIS enabled digital spatial analysis for governance and research.  
 - **2025**: AI-powered satellite imagery analysis provides near real-time insights.
 
-![Mapping Evolution Timeline](/assets/images/mapping-timeline.png)
+![Mapping Evolution Timeline](/images/mapping-timeline.png)
 
 We’re no longer just mapping *where things are* — we’re predicting *what will happen next*, and preparing for it.
 
