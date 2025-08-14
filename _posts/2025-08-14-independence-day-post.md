@@ -78,7 +78,7 @@ This is **Atmanirbhar Bharat** in action — relying on our own capabilities whi
 As we hoist the tricolor today, let’s remember that freedom is more than independence — it’s the ability to create, innovate, and safeguard our future.  
 Geospatial AI is one of the tools helping us do just that.
 
-**Jai Hind! 🇮🇳**
+**Jai Hind!**
 
 ---
 
