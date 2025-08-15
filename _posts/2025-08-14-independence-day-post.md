@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Mapping India’s Progress: How Geospatial AI is Powering a Self-Reliant Nation"
 date: 2025-08-15
 author: "Geetanjali Mahamunkar"
